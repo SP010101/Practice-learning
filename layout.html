@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --pcolor:rgba(10, 10, 18, 0.412);
+        --scolor:white;
+        --pscolor:red;
+        --b1:yellow;
+        --backcolor:rgb(33, 185, 185);
+        
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        background-color:var(--backcolor)
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    nav ul li{
+        margin:23px;
+        padding:20px;
+        border:3px;
+        display:inline-flex;
+        List-style:none;
+        height:1vh;
+        width:8vw;
+        text-overflow:ellipsis;
+        margin-left:20px;
+        box-shadow: 5px 5px 15px 5px #808080;
+    }
+    ul li a{
+        color:black;
+        text-decoration: none;
+        font-size:bolder;
+        color:var(--scolor)
+    }
+    .nav{
+        background-color:var(--pcolor)
+    }
+    nav{
+        position: sticky;
+    }
+    .box{
+        border: 2px solid black;
+        margin:10px;
+        padding:40px;
+        height:50vh;
+        width:20vw;
+        display:inline flex;
+        text-align: center;
+    }
+    .box2{
+        float:right;
+        background-color:var(--pscolor)
+    }
+    .box1{
+        background-color: var(--b1);
+    }
+    .rectangle{
+        border:4px solid white;
+        padding:20px;
+        margin:10px 15px;
+        height:30vh;
+        width:80vw;
+        border-radius:13px;   
+        background-color: black;     
+        color: white;
+        text-align: center;
+
+    }
+    .circle{
+        margin:4px;
+        border:10px solid black;
+        padding:50px;
+        width:50px;
+        height:50px;
+        text-overflow:ellipsis;    
+        box-shadow: 5px 5px 15px 5px #808080;
+        border-radius:50%;
+        bottom:10px;
+        right:1000px;
+        background-color:blue;   
+    }
+    .container{
+        background-color:green;
+
+    }
+    
+       main{
+        background-color: black;
+       } 
+    
+
+</style>
+
+<body>
+<main>
+    <header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="/">Binyte</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Portfolio</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="container">
+   <div class="box box1">This is my yellow</div>
+   <div class="box box2">This is also My red</div>
+   <div class="circle">this is fixed.</div>
+   <div class="rectangle"><bold>This is a command provided in the video<bold>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem aspernatur deleniti maxime et neque repellendus consequuntur officia fugiat nisi ipsam modi expedita autem, saepe, quibusdam quo fuga delectus adipisci! Praesentium, ad cupiditate assumenda aut accusantium quis doloremque ipsam veritatis fuga libero. Dolorem non debitis dicta!</div>
+   </div>
+</main>
+</body>
+</html>
